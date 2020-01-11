@@ -1,0 +1,1009 @@
+{
+  "summoner_info": {
+    "last_info_update": "2020-01-11 00:30:42",
+    "id": "fJpjl_k5EtTdLWw5bi64SMzYVGi4rKSxC2XU1H86Dl2TBM0",
+    "name": "z\u00eakr\u00f4",
+    "shortName": "z\u00eakr\u00f4",
+    "server": "euw",
+    "icon": 1155,
+    "tier": "Unranked",
+    "division": false
+  },
+  "summoner_mastery": {
+    "last_mastery_update": "2020-01-11 00:30:42",
+    "total_champions": 123,
+    "total_mastered": 7,
+    "total_mastered6": 11,
+    "total_mastered5": 27,
+    "total_mastery_level": 344,
+    "total_points": 2261472,
+    "total_points_rank": 218878,
+    "mastery_data": [
+      {
+        "mastery_level": 7,
+        "mastery_level_estimate": 41,
+        "tokens": 0,
+        "champion": 203,
+        "points": 479548,
+        "last_play_time": "2020-01-10 22:38:17"
+      },
+      {
+        "mastery_level": 7,
+        "mastery_level_estimate": 15,
+        "tokens": 0,
+        "champion": 99,
+        "points": 151354,
+        "last_play_time": "2020-01-05 00:44:09"
+      },
+      {
+        "mastery_level": 7,
+        "mastery_level_estimate": 13,
+        "tokens": 0,
+        "champion": 223,
+        "points": 128302,
+        "last_play_time": "2019-12-29 15:20:01"
+      },
+      {
+        "mastery_level": 6,
+        "mastery_level_estimate": 12,
+        "tokens": 2,
+        "champion": 245,
+        "points": 118867,
+        "last_play_time": "2019-12-29 01:05:58"
+      },
+      {
+        "mastery_level": 7,
+        "mastery_level_estimate": 10,
+        "tokens": 0,
+        "champion": 163,
+        "points": 89109,
+        "last_play_time": "2019-12-27 22:22:43"
+      },
+      {
+        "mastery_level": 7,
+        "mastery_level_estimate": 9,
+        "tokens": 0,
+        "champion": 555,
+        "points": 72988,
+        "last_play_time": "2019-12-08 20:01:26"
+      },
+      {
+        "mastery_level": 6,
+        "mastery_level_estimate": 8,
+        "tokens": 1,
+        "champion": 11,
+        "points": 64380,
+        "last_play_time": "2019-12-26 23:09:54"
+      },
+      {
+        "mastery_level": 5,
+        "mastery_level_estimate": 8,
+        "tokens": 0,
+        "champion": 121,
+        "points": 60360,
+        "last_play_time": "2019-08-02 22:23:46"
+      },
+      {
+        "mastery_level": 7,
+        "mastery_level_estimate": 7,
+        "tokens": 0,
+        "champion": 117,
+        "points": 54762,
+        "last_play_time": "2019-11-30 21:42:37"
+      },
+      {
+        "mastery_level": 7,
+        "mastery_level_estimate": 7,
+        "tokens": 0,
+        "champion": 28,
+        "points": 49018,
+        "last_play_time": "2018-08-26 01:09:25"
+      },
+      {
+        "mastery_level": 5,
+        "mastery_level_estimate": 6,
+        "tokens": 2,
+        "champion": 25,
+        "points": 42435,
+        "last_play_time": "2019-11-16 21:54:39"
+      },
+      {
+        "mastery_level": 5,
+        "mastery_level_estimate": 6,
+        "tokens": 1,
+        "champion": 421,
+        "points": 39271,
+        "last_play_time": "2019-07-27 21:16:50"
+      },
+      {
+        "mastery_level": 6,
+        "mastery_level_estimate": 6,
+        "tokens": 0,
+        "champion": 5,
+        "points": 36866,
+        "last_play_time": "2018-07-24 22:11:48"
+      },
+      {
+        "mastery_level": 6,
+        "mastery_level_estimate": 6,
+        "tokens": 0,
+        "champion": 254,
+        "points": 36327,
+        "last_play_time": "2019-08-28 21:54:38"
+      },
+      {
+        "mastery_level": 5,
+        "mastery_level_estimate": 6,
+        "tokens": 1,
+        "champion": 18,
+        "points": 35843,
+        "last_play_time": "2019-07-29 20:35:18"
+      },
+      {
+        "mastery_level": 5,
+        "mastery_level_estimate": 6,
+        "tokens": 1,
+        "champion": 518,
+        "points": 34510,
+        "last_play_time": "2019-12-30 21:51:51"
+      },
+      {
+        "mastery_level": 5,
+        "mastery_level_estimate": 6,
+        "tokens": 2,
+        "champion": 19,
+        "points": 34379,
+        "last_play_time": "2019-08-02 20:51:19"
+      },
+      {
+        "mastery_level": 5,
+        "mastery_level_estimate": 5,
+        "tokens": 0,
+        "champion": 44,
+        "points": 30513,
+        "last_play_time": "2019-12-26 22:38:12"
+      },
+      {
+        "mastery_level": 5,
+        "mastery_level_estimate": 5,
+        "tokens": 1,
+        "champion": 79,
+        "points": 29022,
+        "last_play_time": "2019-08-26 23:18:21"
+      },
+      {
+        "mastery_level": 5,
+        "mastery_level_estimate": 5,
+        "tokens": 0,
+        "champion": 26,
+        "points": 28435,
+        "last_play_time": "2019-12-02 21:45:43"
+      },
+      {
+        "mastery_level": 5,
+        "mastery_level_estimate": 5,
+        "tokens": 0,
+        "champion": 64,
+        "points": 28391,
+        "last_play_time": "2019-12-07 15:29:03"
+      },
+      {
+        "mastery_level": 5,
+        "mastery_level_estimate": 5,
+        "tokens": 0,
+        "champion": 412,
+        "points": 27973,
+        "last_play_time": "2019-09-04 00:29:02"
+      },
+      {
+        "mastery_level": 5,
+        "mastery_level_estimate": 5,
+        "tokens": 0,
+        "champion": 103,
+        "points": 27525,
+        "last_play_time": "2019-08-17 00:50:44"
+      },
+      {
+        "mastery_level": 5,
+        "mastery_level_estimate": 5,
+        "tokens": 1,
+        "champion": 111,
+        "points": 25386,
+        "last_play_time": "2020-01-08 21:52:48"
+      },
+      {
+        "mastery_level": 5,
+        "mastery_level_estimate": 5,
+        "tokens": 0,
+        "champion": 104,
+        "points": 23642,
+        "last_play_time": "2018-09-20 20:14:11"
+      },
+      {
+        "mastery_level": 5,
+        "mastery_level_estimate": 5,
+        "tokens": 0,
+        "champion": 48,
+        "points": 23480,
+        "last_play_time": "2019-12-08 01:13:05"
+      },
+      {
+        "mastery_level": 5,
+        "mastery_level_estimate": 5,
+        "tokens": 1,
+        "champion": 497,
+        "points": 23106,
+        "last_play_time": "2019-10-05 21:57:53"
+      },
+      {
+        "mastery_level": 4,
+        "mastery_level_estimate": 4,
+        "tokens": 0,
+        "champion": 20,
+        "points": 21340,
+        "last_play_time": "2020-01-05 22:49:35"
+      },
+      {
+        "mastery_level": 4,
+        "mastery_level_estimate": 4,
+        "tokens": 0,
+        "champion": 105,
+        "points": 20442,
+        "last_play_time": "2018-04-14 04:18:50"
+      },
+      {
+        "mastery_level": 4,
+        "mastery_level_estimate": 4,
+        "tokens": 0,
+        "champion": 141,
+        "points": 19978,
+        "last_play_time": "2019-08-30 01:04:22"
+      },
+      {
+        "mastery_level": 4,
+        "mastery_level_estimate": 4,
+        "tokens": 0,
+        "champion": 76,
+        "points": 17901,
+        "last_play_time": "2019-08-11 20:39:51"
+      },
+      {
+        "mastery_level": 4,
+        "mastery_level_estimate": 4,
+        "tokens": 0,
+        "champion": 43,
+        "points": 16102,
+        "last_play_time": "2020-01-09 22:19:26"
+      },
+      {
+        "mastery_level": 4,
+        "mastery_level_estimate": 4,
+        "tokens": 0,
+        "champion": 16,
+        "points": 16074,
+        "last_play_time": "2019-11-24 22:03:41"
+      },
+      {
+        "mastery_level": 4,
+        "mastery_level_estimate": 4,
+        "tokens": 0,
+        "champion": 45,
+        "points": 15987,
+        "last_play_time": "2019-09-19 20:32:55"
+      },
+      {
+        "mastery_level": 4,
+        "mastery_level_estimate": 4,
+        "tokens": 0,
+        "champion": 32,
+        "points": 13617,
+        "last_play_time": "2018-05-23 21:34:27"
+      },
+      {
+        "mastery_level": 4,
+        "mastery_level_estimate": 4,
+        "tokens": 0,
+        "champion": 53,
+        "points": 13460,
+        "last_play_time": "2019-12-27 22:52:49"
+      },
+      {
+        "mastery_level": 3,
+        "mastery_level_estimate": 3,
+        "tokens": 0,
+        "champion": 67,
+        "points": 11741,
+        "last_play_time": "2019-09-03 22:22:52"
+      },
+      {
+        "mastery_level": 3,
+        "mastery_level_estimate": 3,
+        "tokens": 0,
+        "champion": 7,
+        "points": 11357,
+        "last_play_time": "2017-11-22 03:33:45"
+      },
+      {
+        "mastery_level": 3,
+        "mastery_level_estimate": 3,
+        "tokens": 0,
+        "champion": 498,
+        "points": 11296,
+        "last_play_time": "2019-08-16 22:29:33"
+      },
+      {
+        "mastery_level": 3,
+        "mastery_level_estimate": 3,
+        "tokens": 0,
+        "champion": 101,
+        "points": 11118,
+        "last_play_time": "2018-09-12 19:36:03"
+      },
+      {
+        "mastery_level": 3,
+        "mastery_level_estimate": 3,
+        "tokens": 0,
+        "champion": 427,
+        "points": 10893,
+        "last_play_time": "2020-01-05 18:05:27"
+      },
+      {
+        "mastery_level": 3,
+        "mastery_level_estimate": 3,
+        "tokens": 0,
+        "champion": 80,
+        "points": 10852,
+        "last_play_time": "2019-08-18 20:20:34"
+      },
+      {
+        "mastery_level": 3,
+        "mastery_level_estimate": 3,
+        "tokens": 0,
+        "champion": 21,
+        "points": 9713,
+        "last_play_time": "2018-03-12 03:39:47"
+      },
+      {
+        "mastery_level": 3,
+        "mastery_level_estimate": 3,
+        "tokens": 0,
+        "champion": 39,
+        "points": 9060,
+        "last_play_time": "2016-11-26 07:43:22"
+      },
+      {
+        "mastery_level": 3,
+        "mastery_level_estimate": 3,
+        "tokens": 0,
+        "champion": 17,
+        "points": 8928,
+        "last_play_time": "2019-07-27 01:30:33"
+      },
+      {
+        "mastery_level": 3,
+        "mastery_level_estimate": 3,
+        "tokens": 0,
+        "champion": 517,
+        "points": 8865,
+        "last_play_time": "2019-06-15 16:13:11"
+      },
+      {
+        "mastery_level": 3,
+        "mastery_level_estimate": 3,
+        "tokens": 0,
+        "champion": 74,
+        "points": 8802,
+        "last_play_time": "2018-09-16 20:56:50"
+      },
+      {
+        "mastery_level": 3,
+        "mastery_level_estimate": 3,
+        "tokens": 0,
+        "champion": 89,
+        "points": 8784,
+        "last_play_time": "2019-08-10 22:17:41"
+      },
+      {
+        "mastery_level": 3,
+        "mastery_level_estimate": 3,
+        "tokens": 0,
+        "champion": 164,
+        "points": 8660,
+        "last_play_time": "2019-09-04 23:08:23"
+      },
+      {
+        "mastery_level": 3,
+        "mastery_level_estimate": 3,
+        "tokens": 0,
+        "champion": 35,
+        "points": 7638,
+        "last_play_time": "2020-01-06 21:41:36"
+      },
+      {
+        "mastery_level": 3,
+        "mastery_level_estimate": 3,
+        "tokens": 0,
+        "champion": 120,
+        "points": 7375,
+        "last_play_time": "2018-05-29 21:38:05"
+      },
+      {
+        "mastery_level": 3,
+        "mastery_level_estimate": 3,
+        "tokens": 0,
+        "champion": 15,
+        "points": 7143,
+        "last_play_time": "2019-09-04 21:50:47"
+      },
+      {
+        "mastery_level": 3,
+        "mastery_level_estimate": 3,
+        "tokens": 0,
+        "champion": 24,
+        "points": 6987,
+        "last_play_time": "2018-07-30 22:16:51"
+      },
+      {
+        "mastery_level": 3,
+        "mastery_level_estimate": 3,
+        "tokens": 0,
+        "champion": 145,
+        "points": 6795,
+        "last_play_time": "2019-12-22 18:03:12"
+      },
+      {
+        "mastery_level": 3,
+        "mastery_level_estimate": 3,
+        "tokens": 0,
+        "champion": 51,
+        "points": 6692,
+        "last_play_time": "2019-12-22 17:27:19"
+      },
+      {
+        "mastery_level": 3,
+        "mastery_level_estimate": 3,
+        "tokens": 0,
+        "champion": 38,
+        "points": 6684,
+        "last_play_time": "2018-09-13 21:26:30"
+      },
+      {
+        "mastery_level": 2,
+        "mastery_level_estimate": 2,
+        "tokens": 0,
+        "champion": 78,
+        "points": 5944,
+        "last_play_time": "2019-08-31 16:03:27"
+      },
+      {
+        "mastery_level": 2,
+        "mastery_level_estimate": 2,
+        "tokens": 0,
+        "champion": 9,
+        "points": 5901,
+        "last_play_time": "2018-07-19 21:55:33"
+      },
+      {
+        "mastery_level": 2,
+        "mastery_level_estimate": 2,
+        "tokens": 0,
+        "champion": 150,
+        "points": 5864,
+        "last_play_time": "2017-11-27 01:52:43"
+      },
+      {
+        "mastery_level": 2,
+        "mastery_level_estimate": 2,
+        "tokens": 0,
+        "champion": 114,
+        "points": 5837,
+        "last_play_time": "2017-11-27 01:10:58"
+      },
+      {
+        "mastery_level": 2,
+        "mastery_level_estimate": 2,
+        "tokens": 0,
+        "champion": 222,
+        "points": 5407,
+        "last_play_time": "2019-07-08 22:41:08"
+      },
+      {
+        "mastery_level": 2,
+        "mastery_level_estimate": 2,
+        "tokens": 0,
+        "champion": 246,
+        "points": 4860,
+        "last_play_time": "2019-11-21 18:53:21"
+      },
+      {
+        "mastery_level": 2,
+        "mastery_level_estimate": 2,
+        "tokens": 0,
+        "champion": 154,
+        "points": 4572,
+        "last_play_time": "2019-06-14 23:58:17"
+      },
+      {
+        "mastery_level": 2,
+        "mastery_level_estimate": 2,
+        "tokens": 0,
+        "champion": 63,
+        "points": 4536,
+        "last_play_time": "2018-06-15 21:11:56"
+      },
+      {
+        "mastery_level": 2,
+        "mastery_level_estimate": 2,
+        "tokens": 0,
+        "champion": 60,
+        "points": 4470,
+        "last_play_time": "2018-08-26 01:49:15"
+      },
+      {
+        "mastery_level": 2,
+        "mastery_level_estimate": 2,
+        "tokens": 0,
+        "champion": 432,
+        "points": 4239,
+        "last_play_time": "2019-09-14 22:31:45"
+      },
+      {
+        "mastery_level": 2,
+        "mastery_level_estimate": 2,
+        "tokens": 0,
+        "champion": 235,
+        "points": 3962,
+        "last_play_time": "2019-12-29 21:52:25"
+      },
+      {
+        "mastery_level": 2,
+        "mastery_level_estimate": 2,
+        "tokens": 0,
+        "champion": 143,
+        "points": 3941,
+        "last_play_time": "2019-10-05 18:47:33"
+      },
+      {
+        "mastery_level": 2,
+        "mastery_level_estimate": 2,
+        "tokens": 0,
+        "champion": 77,
+        "points": 3843,
+        "last_play_time": "2018-09-19 21:03:59"
+      },
+      {
+        "mastery_level": 2,
+        "mastery_level_estimate": 2,
+        "tokens": 0,
+        "champion": 42,
+        "points": 3729,
+        "last_play_time": "2017-10-02 06:40:27"
+      },
+      {
+        "mastery_level": 2,
+        "mastery_level_estimate": 2,
+        "tokens": 0,
+        "champion": 201,
+        "points": 3686,
+        "last_play_time": "2019-12-08 22:00:56"
+      },
+      {
+        "mastery_level": 2,
+        "mastery_level_estimate": 2,
+        "tokens": 0,
+        "champion": 22,
+        "points": 3556,
+        "last_play_time": "2017-12-03 23:42:21"
+      },
+      {
+        "mastery_level": 2,
+        "mastery_level_estimate": 2,
+        "tokens": 0,
+        "champion": 29,
+        "points": 3395,
+        "last_play_time": "2018-09-08 22:43:58"
+      },
+      {
+        "mastery_level": 2,
+        "mastery_level_estimate": 2,
+        "tokens": 0,
+        "champion": 84,
+        "points": 3334,
+        "last_play_time": "2019-06-08 22:17:06"
+      },
+      {
+        "mastery_level": 2,
+        "mastery_level_estimate": 2,
+        "tokens": 0,
+        "champion": 107,
+        "points": 3224,
+        "last_play_time": "2019-09-11 22:23:22"
+      },
+      {
+        "mastery_level": 2,
+        "mastery_level_estimate": 2,
+        "tokens": 0,
+        "champion": 98,
+        "points": 3071,
+        "last_play_time": "2019-08-31 19:58:28"
+      },
+      {
+        "mastery_level": 2,
+        "mastery_level_estimate": 2,
+        "tokens": 0,
+        "champion": 37,
+        "points": 2691,
+        "last_play_time": "2018-07-01 15:54:49"
+      },
+      {
+        "mastery_level": 2,
+        "mastery_level_estimate": 2,
+        "tokens": 0,
+        "champion": 131,
+        "points": 2535,
+        "last_play_time": "2018-11-18 15:54:42"
+      },
+      {
+        "mastery_level": 2,
+        "mastery_level_estimate": 2,
+        "tokens": 0,
+        "champion": 6,
+        "points": 2464,
+        "last_play_time": "2017-12-21 08:35:36"
+      },
+      {
+        "mastery_level": 2,
+        "mastery_level_estimate": 2,
+        "tokens": 0,
+        "champion": 36,
+        "points": 2092,
+        "last_play_time": "2018-06-02 23:36:02"
+      },
+      {
+        "mastery_level": 2,
+        "mastery_level_estimate": 2,
+        "tokens": 0,
+        "champion": 59,
+        "points": 2005,
+        "last_play_time": "2019-03-04 21:45:01"
+      },
+      {
+        "mastery_level": 2,
+        "mastery_level_estimate": 2,
+        "tokens": 0,
+        "champion": 8,
+        "points": 1978,
+        "last_play_time": "2018-04-13 04:51:21"
+      },
+      {
+        "mastery_level": 2,
+        "mastery_level_estimate": 2,
+        "tokens": 0,
+        "champion": 110,
+        "points": 1955,
+        "last_play_time": "2019-07-30 21:52:42"
+      },
+      {
+        "mastery_level": 2,
+        "mastery_level_estimate": 2,
+        "tokens": 0,
+        "champion": 23,
+        "points": 1953,
+        "last_play_time": "2017-12-02 07:44:55"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 82,
+        "points": 1632,
+        "last_play_time": "2019-07-14 20:40:22"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 31,
+        "points": 1626,
+        "last_play_time": "2016-03-07 04:56:19"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 40,
+        "points": 1446,
+        "last_play_time": "2016-04-18 03:22:02"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 30,
+        "points": 1437,
+        "last_play_time": "2018-09-20 22:02:37"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 127,
+        "points": 1361,
+        "last_play_time": "2018-11-12 21:41:13"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 12,
+        "points": 1357,
+        "last_play_time": "2016-04-10 05:03:58"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 33,
+        "points": 1307,
+        "last_play_time": "2018-07-03 22:13:33"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 202,
+        "points": 1305,
+        "last_play_time": "2018-08-29 21:32:46"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 55,
+        "points": 1295,
+        "last_play_time": "2018-02-12 01:38:22"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 161,
+        "points": 1278,
+        "last_play_time": "2018-06-02 15:42:08"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 92,
+        "points": 1261,
+        "last_play_time": "2019-08-17 15:36:01"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 75,
+        "points": 1129,
+        "last_play_time": "2019-07-26 21:19:48"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 106,
+        "points": 1063,
+        "last_play_time": "2019-08-23 22:21:56"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 34,
+        "points": 972,
+        "last_play_time": "2018-01-30 05:29:43"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 86,
+        "points": 897,
+        "last_play_time": "2015-10-23 05:03:35"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 236,
+        "points": 798,
+        "last_play_time": "2019-09-04 21:10:39"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 57,
+        "points": 703,
+        "last_play_time": "2019-04-04 21:32:39"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 96,
+        "points": 571,
+        "last_play_time": "2018-01-15 04:14:16"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 10,
+        "points": 471,
+        "last_play_time": "2016-04-28 04:12:17"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 69,
+        "points": 415,
+        "last_play_time": "2018-09-10 21:46:11"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 13,
+        "points": 405,
+        "last_play_time": "2018-04-10 03:40:46"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 350,
+        "points": 384,
+        "last_play_time": "2019-08-23 20:28:03"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 56,
+        "points": 304,
+        "last_play_time": "2019-05-31 19:45:58"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 3,
+        "points": 280,
+        "last_play_time": "2018-02-26 00:01:24"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 91,
+        "points": 247,
+        "last_play_time": "2018-04-24 03:29:41"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 1,
+        "points": 243,
+        "last_play_time": "2018-01-29 00:25:15"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 81,
+        "points": 241,
+        "last_play_time": "2019-08-27 18:25:36"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 113,
+        "points": 216,
+        "last_play_time": "2019-10-14 23:12:58"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 429,
+        "points": 200,
+        "last_play_time": "2017-11-15 04:17:41"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 62,
+        "points": 191,
+        "last_play_time": "2019-02-22 23:16:23"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 133,
+        "points": 174,
+        "last_play_time": "2018-12-22 23:36:39"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 238,
+        "points": 160,
+        "last_play_time": "2018-05-14 20:25:34"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 27,
+        "points": 151,
+        "last_play_time": "2016-11-27 04:49:53"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 50,
+        "points": 151,
+        "last_play_time": "2019-10-17 23:03:09"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 14,
+        "points": 151,
+        "last_play_time": "2016-06-18 03:15:52"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 4,
+        "points": 149,
+        "last_play_time": "2017-10-14 04:40:52"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 267,
+        "points": 134,
+        "last_play_time": "2019-04-11 19:59:03"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 102,
+        "points": 133,
+        "last_play_time": "2018-02-28 00:50:08"
+      },
+      {
+        "mastery_level": 1,
+        "mastery_level_estimate": 1,
+        "tokens": 0,
+        "champion": 54,
+        "points": 114,
+        "last_play_time": "2018-06-15 21:35:28"
+      }
+    ]
+  },
+  "summoner_ingame": false
+}
