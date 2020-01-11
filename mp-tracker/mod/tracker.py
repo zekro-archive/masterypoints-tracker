@@ -51,7 +51,6 @@ class Tracker:
 
         if len(champ_ids) > 0:
             mastery_data = [m for m in mastery_data if m.get('champion') in champ_ids]
-            print(mastery_data)
             data['summoner_mastery']['mastery_data'] = mastery_data
 
         return data

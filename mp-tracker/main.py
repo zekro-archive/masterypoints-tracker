@@ -1,24 +1,23 @@
-import masterypoints
-import ddragon
-import args
-import logsetup
-import tracker
 import logging
+
+import mod
+import apiwrapper
+import util
 
 
 def main():
-    argv = args.get_args()
-    logsetup.setup_logging(argv.loglevel, argv.silent)
+    argv = util.get_args()
+    util.setup_logging(argv.loglevel, argv.silent)
     logging.debug('MAIN : passed args: {}'.format(argv))
 
-    mp = masterypoints.MasteryPoints(argv.mpversion)
-    dr = ddragon.DDragon(argv.patch)
-    tr = tracker.Tracker(mp, dr)
+    mp = apiwrapper.MasteryPoints(argv.mpversion)
+    dr = apiwrapper.DDragon(argv.patch)
+    tr = mod.Tracker(mp, dr)
 
     champion_names = []
     if argv.champions and argv.champions != 'all':
         champion_names = argv.champions.split(',')
-    
+
     data = tr.get_data(argv.username, argv.server, champion_names)
     with open('output.json', 'w', encoding='utf-8') as f:
         import json
