@@ -4,7 +4,7 @@ import argparse
 DEFAULT_MP_VERSION = 'v1.1'
 
 
-def get_args():
+def get_args(*additional_registers):
     """
     Parses command line arguments and returns a Namespace
     containing the keys and values of the parsed arguments.
@@ -14,8 +14,8 @@ def get_args():
     # Masterypoints
     mp_args = parser.add_argument_group('Masterypoints API options')
     mp_args.add_argument(
-        '--username', '-u', required=True, type=str,
-        help='Summoner name of the target player')
+        '--username', '-u', required=True, type=str, nargs='+',
+        help='Summoner name(s) of the target player')
     mp_args.add_argument(
         '--server', '-s', required=True, type=str,
         help='Server where to locate the target player')
@@ -29,8 +29,8 @@ def get_args():
         '--patch', type=str,
         help='Patch version of League of Legends data')
     dr_args.add_argument(
-        '--champions', '-c', type=str, default='all',
-        help='Comma seperated array of champions to be fetched - not set means all')
+        '--champions', '-c', type=str, default=[], nargs='+',
+        help='Champions to be fetched - not set means all')
 
     # Logging
     lg_args = parser.add_argument_group('Logging and output options')
@@ -41,5 +41,8 @@ def get_args():
     lg_args.add_argument(
         '--silent', default=False, action='store_true',
         help='Supress console output')
+
+    for r in additional_registers:
+        r.register_args(parser)
 
     return parser.parse_args()
