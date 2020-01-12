@@ -6,7 +6,7 @@ import util
 import output
 
 
-OUTPUT_DRIVER = output.File
+OUTPUT_DRIVER = output.MongoDB
 
 
 def main():
