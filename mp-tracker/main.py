@@ -1,12 +1,15 @@
+#!/usr/bin/python3
+
 import logging
 
 import mod
 import apiwrapper
 import util
 import output
+import const
 
 
-OUTPUT_DRIVER = output.MongoDB
+OUTPUT_DRIVER = const.OUTPUT_DRIVER
 
 
 def main():

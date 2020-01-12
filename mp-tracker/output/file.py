@@ -20,9 +20,9 @@ class File(Output):
 
     def __init__(self, argv):
         self._loc = argv.output
-        if not path.isdir(loc):
-            os.makedirs(loc)
-            logging.info('OUTPUT : FILE : making dirs {}'.format(loc))
+        if not path.isdir(self._loc):
+            os.makedirs(self._loc)
+            logging.info('OUTPUT : FILE : making dirs {}'.format(self._loc))
 
     def push_data_set(self, data, ident=False):
         username = data.get('summoner_info').get('name')
