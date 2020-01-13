@@ -11,11 +11,4 @@ RUN bash ./scripts/inject-output-driver.sh \
 
 RUN python3 -m pip install -r ./requirements.py
 
-RUN echo "0 6 * * * python3 /app/mp-tracker/main.py \$RUNARGS >> /var/log/cron.log 2>&1" \
-        >> /etc/cron.d/mp-tracker
-RUN chmod 0644 /etc/cron.d/mp-tracker &&\
-    touch /var/log/cron.log
-RUN apt-get update &&\
-    apt-get -y install cron
-
-CMD cron && tail -f /var/log/cron.log
+ENTRYPOINT ["python3", "./mp-tracker/main.py", "-l20"]

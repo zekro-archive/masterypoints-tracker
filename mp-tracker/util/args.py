@@ -32,6 +32,18 @@ def get_args(*additional_registers):
         '--champions', '-c', type=str, default=[], nargs='+',
         help='Champions to be fetched - not set means all')
 
+    # Scheduler
+    sd_args = parser.add_argument_group('Scheduler')
+    sd_args.add_argument(
+        '--schedule', default=False, action='store_true',
+        help='Use scheduler instead of running once')
+    sd_args.add_argument(
+        '--every', type=int,
+        help='Execute scheduler job every x minutes')
+    sd_args.add_argument(
+        '--daily', type=str,
+        help='Run scheduler job daily at specified time')
+
     # Logging
     lg_args = parser.add_argument_group('Logging and output options')
     lg_args.add_argument(
