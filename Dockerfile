@@ -9,6 +9,6 @@ RUN bash ./scripts/inject-output-driver.sh \
         $OUTPUT_DRIVER \
         ./mp-tracker/const/outputdriver.py
 
-RUN python3 -m pip install -r ./requirements.py
+RUN python3 -m pip install -r ./requirements.txt
 
 ENTRYPOINT ["python3", "./mp-tracker/main.py", "-l20"]
