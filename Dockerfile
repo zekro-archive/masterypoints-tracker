@@ -1,7 +1,6 @@
 FROM python:3.8-slim-buster
 LABEL maintainer="zekro <contact@zekro.de>"
 ARG OUTPUT_DRIVER="mongo"
-ENV RUNARGS=""
 
 WORKDIR /app
 ADD . .
