@@ -28,7 +28,7 @@ def main():
         for uname in argv.username:
             logging.info('MAIN : fetching data for user {} ({})'.format(uname, argv.server))
             data = tr.get_data(uname, argv.server, argv.champions)
-            out.push_data_set(data, ident=True)
+            out.push_data_set(data)
 
     if not argv.schedule:
         job()
