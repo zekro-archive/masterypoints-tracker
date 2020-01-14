@@ -34,4 +34,3 @@ class Output(ABC):
         Command line parser instance.
         """
         pass
-

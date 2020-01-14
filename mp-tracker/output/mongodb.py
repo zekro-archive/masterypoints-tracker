@@ -17,8 +17,8 @@ class MongoDB(Output):
         logging.info('OUTPUT : MONGO : connected to database \'{}\''.format(self._db_name))
 
     def push_data_set(self, data, **kwargs):
-        username = data.get('summoner_info').get('name')
-        server = data.get('summoner_info').get('server')
+        # username = data.get('summoner_info').get('name')
+        # server = data.get('summoner_info').get('server')
         colle = self._db.profiles
         colle.insert_one(data)
 

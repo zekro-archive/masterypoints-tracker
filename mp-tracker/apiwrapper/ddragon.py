@@ -118,7 +118,7 @@ class DDragon:
     @staticmethod
     def _reduce_champ_name(n):
         """
-        Returns a champion name lowercased and with space, 
+        Returns a champion name lowercased and with space,
         quote, dot and ampersand characters replaced.
         """
-        return n.lower().replace(' ', '').replace('\'', '').replace('.', '').replace('&', '')       
+        return n.lower().replace(' ', '').replace('\'', '').replace('.', '').replace('&', '')
