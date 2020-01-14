@@ -1,6 +1,11 @@
 #!/bin/bash
 
 DRIVER=File
+FILE=$2
+
+if [ -z $FILE ]; then
+    FILE=$PWD/mp-tracker/const/outputdriver.py
+fi
 
 case $1 in
     mongo|mongodb)
@@ -11,6 +16,6 @@ case $1 in
         ;;
 esac
 
-echo "import output" > $2
-echo "" >> $2
-echo "OUTPUT_DRIVER = output.$DRIVER" >> $2
+echo "import output" > $FILE
+echo "" >> $FILE
+echo "OUTPUT_DRIVER = output.$DRIVER" >> $FILE
