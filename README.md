@@ -39,7 +39,8 @@ $ python3 ./mp-tracker/main.py \
     --server euw \
     --loglevel 20 \
     --champions ahri kaisa kindred drmundo \
-    --output ./output
+    --output ./output \
+    --indent
 ```
 
 Or when you are usign the MongoDB output driver:
@@ -76,3 +77,30 @@ $ python3 ./mp-tracker/main.py \
     --schedule \
     --daily "03:00"
 ```
+
+## Docker Image
+
+You can use the provided `Dockerfile` to build this script into a Docker image:
+```
+$ docker build . -t mp-tracker
+```
+
+The image uses the script as entrypoint, which means, you have to pass the command arguments as command to the container at start:
+```
+$ docker run -d --name mp-tracker mp-tracker \
+    -u username1 -s euw --schedule --daily "03:00" \
+    -con mongo://uname:pw@host/authdb -db masterypoints
+```
+
+Or, if you are using docker-compose:
+```yml
+mp-tracker:
+  image: 'mp-tracker'
+  command: '-u username1 -s euw --schedule --daily "03:00" -con mongo://uname:pw@host/authdb -db masterypoints'
+  restart: 'on-failure'
+```
+
+---
+
+© 2020 Ringo Hoffmann (zekro Development)  
+Covered by the MIT Licence.
