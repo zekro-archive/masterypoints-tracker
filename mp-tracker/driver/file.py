@@ -2,11 +2,11 @@ import os
 import json
 import logging
 from os import path
-from output import Output
+from driver import Driver
 from time import gmtime, strftime
 
 
-class File(Output):
+class File(Driver):
     """
     File output drievr pushes data to json files
     stored in directories like following:
@@ -37,6 +37,9 @@ class File(Output):
         with open(filename, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=('  ' if self._indent else None))
         logging.info('OUTPUT : FILE : pushed data to {}'.format(filename))
+
+    def get_data_set(self, usernames, server, champions):
+        raise Exception('get_data_set is not implemented')
 
     @staticmethod
     def register_args(parser):

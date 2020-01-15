@@ -41,7 +41,7 @@ class Tracker:
         """
         champ_ids = []
         if champ_names and len(champ_names) > 0:
-            champ_ids = self._dr.get_champs_by_name(champ_names)
+            champ_ids = self._dr.get_champs_by_name(champ_names).keys()
             logging.info('TRACKER : fetched champion ids: {}'.format(champ_ids))
         else:
             logging.info('TRACKER : fetch all champions')

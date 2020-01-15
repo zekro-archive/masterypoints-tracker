@@ -4,7 +4,7 @@ DRIVER=File
 FILE=$2
 
 if [ -z $FILE ]; then
-    FILE=$PWD/mp-tracker/const/outputdriver.py
+    FILE=$PWD/mp-tracker/const/datadriver.py
 fi
 
 case $1 in
@@ -16,6 +16,6 @@ case $1 in
         ;;
 esac
 
-echo "import output" > $FILE
+echo "import driver" > $FILE
 echo "" >> $FILE
-echo "OUTPUT_DRIVER = output.$DRIVER" >> $FILE
+echo "DATA_DRIVER = driver.$DRIVER" >> $FILE

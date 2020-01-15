@@ -35,7 +35,7 @@ class DDragon:
         """
         return self._get_api('versions.json')
 
-    def get_champs_by_name(self, champ_names):
+    def get_champs_by_name(self, champ_names=[]):
         """
         Returns a list of champion IDs related to the
         list of champion names. The names of the champions
@@ -46,15 +46,16 @@ class DDragon:
         List of champion names.
         """
         res = self._get_cdn('data/en_US/champion.json')
-        ids = []
+        ids = {}
         champs_map = res.get('data')
         if not champs_map:
             raise Exception('champs result was Null')
         champ_names = [DDragon._reduce_champ_name(n).lower() for n in champ_names]
         for k, v in champs_map.items():
-            if DDragon._reduce_champ_name(k) in champ_names:
+            cname = DDragon._reduce_champ_name(k)
+            if len(champ_names) <= 0 or cname in champ_names:
                 cid = int(v.get('key'))
-                ids.append(cid)
+                ids[cid] = cname
         if len(ids) < len(champ_names):
             logging.warn('DDRAGON : some champion names could not be found')
         return ids

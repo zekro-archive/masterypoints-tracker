@@ -1,9 +1,9 @@
 import pymongo
 import logging
-from output import Output
+from driver import Driver
 
 
-class MongoDB(Output):
+class MongoDB(Driver):
     _con = None
     _db_name = None
     _client = None
@@ -19,8 +19,16 @@ class MongoDB(Output):
     def push_data_set(self, data, **kwargs):
         # username = data.get('summoner_info').get('name')
         # server = data.get('summoner_info').get('server')
-        colle = self._db.profiles
-        colle.insert_one(data)
+        coll = self._db.profiles
+        coll.insert_one(data)
+
+    def get_data_set(self, usernames, server):
+        coll = self._db.profiles
+        res = coll.find({
+            'summoner_info.name': {'$in': usernames},
+            'summoner_info.server': server,
+        })
+        return [i for _, i in enumerate(res)]
 
     @staticmethod
     def register_args(parser):

@@ -10,18 +10,24 @@ import util
 import const
 
 
-OUTPUT_DRIVER = const.OUTPUT_DRIVER
+DATA_DRIVER = const.DATA_DRIVER
 
 
 def main():
-    argv = util.get_args(OUTPUT_DRIVER)
+    argv = util.get_args(DATA_DRIVER)
     util.setup_logging(argv.loglevel, argv.silent)
     logging.debug('MAIN : passed args: {}'.format(argv))
 
     mp = apiwrapper.MasteryPoints(argv.mpversion)
     dr = apiwrapper.DDragon(argv.patch)
     tr = mod.Tracker(mp, dr)
-    out = OUTPUT_DRIVER(argv)
+    out = DATA_DRIVER(argv)
+
+    if argv.csv is not None:
+        data = out.get_data_set(argv.username, argv.server)
+        csv = mod.CSV(argv.csv, dr.get_champs_by_name())
+        csv.generate_champs(data, argv.username[0], argv.champions)
+        return
 
     def job():
         for uname in argv.username:

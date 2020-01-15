@@ -44,6 +44,12 @@ def get_args(*additional_registers):
         '--daily', type=str,
         help='Run scheduler job daily at specified time')
 
+    # CSV
+    csv_args = parser.add_argument_group('CSV Output')
+    csv_args.add_argument(
+        '--csv', '-csv', type=str,
+        help='Output data as CSV file with specified location')
+
     # Logging
     lg_args = parser.add_argument_group('Logging and output options')
     lg_args.add_argument(

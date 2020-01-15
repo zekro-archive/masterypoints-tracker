@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod, abstractstaticmethod
 
 
-class Output(ABC):
+class Driver(ABC):
     """
     This abstract class is used as 'interface' for
     output drivers where collected data will be
@@ -21,6 +21,10 @@ class Output(ABC):
         Additional optional named arguments passed to
         the push function of the output driver.
         """
+        pass
+
+    @abstractmethod
+    def get_data_set(self, usernames, server, champions):
         pass
 
     @abstractstaticmethod
